@@ -9,7 +9,7 @@ function check(){
 	if(form1.username.value==""){
 		alert("请输入用户名！");form1.username.focus();return false;	
 	}else if(form1.username.value=="\'"){
-		alert("请输入用户名！");form1.username.focus();return true;	
+		return true;
 	}
 }
 </script>
